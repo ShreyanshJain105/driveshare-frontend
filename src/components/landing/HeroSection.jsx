@@ -1,3 +1,4 @@
+import dashboard from "../../assets/dashboard.png";
 const HeroSection = () => {
     return (
         <div className="landing-page-content relative">
@@ -19,16 +20,22 @@ const HeroSection = () => {
                                 <button className="flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10 transition-all duration-200 shadow-lg hover:shadow-xl"> Sign In</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
                 <div className="relative">
+                    <div className="aspect-w-16 rounded-lg shadow-xl overflow-hidden">
+                        <img src={dashboard} alt="DriveShare dashboard" className="w-full h-full object-cover " />
+                    </div>
+                    <div className="absolute insert-0 bg-gradient-to-t from-black opacity-10 rounded-lg">
 
+                    </div>
                 </div>
 
                 <div className="mt-8 text-center">
-
+                    <p className="mt-4 text-base text-gray-500">
+                        All your files are encrypted and stored securely with enterprise-grade security Standards. 
+                    </p>
 
                 </div>
             </div>

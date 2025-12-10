@@ -2,11 +2,12 @@
 
 // ---------------- Plans ----------------
 
-export const plans = [
+export const pricingPlans = [
   {
     name: "Basic",
     price: "Free",
-    description: "Perfect for beginners who need simple file sharing.",
+    description:
+      "A streamlined plan designed for individuals exploring secure file sharing capabilities.",
     features: [
       "5 file uploads",
       "Basic file sharing",
@@ -18,8 +19,9 @@ export const plans = [
   },
   {
     name: "Plus",
-    price: "199",
-    description: "Ideal for users who need more flexibility and storage.",
+    price: "500",
+    description:
+      "A scalable solution for users requiring enhanced storage, security, and collaboration options.",
     features: [
       "50 file uploads",
       "Secure file links",
@@ -32,8 +34,9 @@ export const plans = [
   },
   {
     name: "Premium",
-    price: "499",
-    description: "For individuals with large sharing needs.",
+    price: "2500",
+    description:
+      "A comprehensive plan built for professionals and teams managing high-volume file sharing at scale.",
     features: [
       "Unlimited file uploads",
       "Advanced encrypted sharing",
@@ -47,6 +50,7 @@ export const plans = [
 ];
 
 
+
 // ---------------- Features ----------------
 
 export const features = [
@@ -54,27 +58,66 @@ export const features = [
     iconName: "Upload",
     iconColor: "text-purple-500",
     title: "Fast Uploads",
-    description: "Upload files instantly with our optimized system.",
+    description:
+      "Quickly upload files with our optimized, drag-and-drop uploader.",
   },
   {
     iconName: "ShieldCheck",
     iconColor: "text-green-500",
     title: "Secure Storage",
-    description: "Your data is encrypted and stored securely in the cloud.",
+    description:
+      "Your files are encrypted and stored securely in our cloud infrastructure.",
   },
   {
     iconName: "Share2",
     iconColor: "text-blue-500",
-    title: "Easy Sharing",
-    description: "Share files securely with custom permissions and link control.",
+    title: "Simple Sharing",
+    description:
+      "Share files with anyone using secure links and fine-grained access control.",
   },
   {
     iconName: "BarChart2",
     iconColor: "text-yellow-500",
-    title: "Analytics",
-    description: "Track file downloads, views, and user interactions.",
+    title: "File Analytics",
+    description:
+      "Track downloads, views, and engagement to understand how your files are used.",
+  },
+  {
+    iconName: "Wallet",
+    iconColor: "text-pink-500",
+    title: "Flexible Credits",
+    description:
+      "Pay only for what you use with a transparent, credit-based system.",
+  },
+  {
+    iconName: "Folders",
+    iconColor: "text-indigo-500",
+    title: "File Management",
+    description:
+      "Organize, preview, and manage all your files from any device.",
+  },
+  {
+    iconName: "Lock",
+    iconColor: "text-red-500",
+    title: "Access Controls",
+    description:
+      "Set permissions, expiry dates, and password protection for sensitive files.",
+  },
+  {
+    iconName: "History",
+    iconColor: "text-teal-500",
+    title: "Transaction History",
+    description:
+      "Keep track of all credit purchases, file activity, and usage in one place.",
+  },
+  {
+    iconName: "Download",
+    iconColor: "text-orange-500",
+    title: "Download Controls",
+    description: "Manage download limits, expiration dates, and access permissions for shared files.",
   },
 ];
+
 
 
 // ---------------- Testimonials ----------------
@@ -108,3 +151,4 @@ export const testimonials = [
     rating: 5,
   },
 ];
+export { };
