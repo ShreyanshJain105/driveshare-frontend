@@ -124,7 +124,7 @@ export const features = [
 
 export const testimonials = [
   {
-    name: "Aarav Mehta",
+    name: "Masum Jangid",
     role: "UI/UX Designer",
     company: "Freelance",
     image: "https://randomuser.me/api/portraits/men/24.jpg",
@@ -133,7 +133,7 @@ export const testimonials = [
     rating: 5,
   },
   {
-    name: "Sara Khan",
+    name: "Richa Modi",
     role: "Software Developer",
     company: "TechNova Pvt Ltd",
     image: "https://randomuser.me/api/portraits/women/59.jpg",
