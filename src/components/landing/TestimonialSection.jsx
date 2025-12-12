@@ -19,14 +19,14 @@ const TestimonialSection=({testimonials})=>{
                                 <div className="pd-8">
                                     <div className="flex items-center"> 
                                         <div className="flex-shrink-0 h-12 w-12">
-                                            <img src={testimonial.image} alt={testimonial.name}  className="h-12 w-12 rounded-full"/>
+                                            <img src={testimonial.image} alt={testimonial.name}  className="m-1 h-12 w-12 rounded-full"/>
                                         </div>
                                         <div className="ml-4">
                                             <h4 className="text-lg font-bold text-gray-900">{testimonial.name}</h4>
                                             <p className="text-sm text-gray-600">{testimonial.role}, {testimonial.company}</p>
                                         </div>
                                     </div>
-                                    <div className="mt-4 flex items-center">
+                                    <div className="mt-4 flex items-center ml-3">
                                         {[...Array(5)].map((_,i)=>(
                                             <Star key={i} size={16} className={`${i<testimonial.rating?'text-yellow-400':'text-gray-300'} fill-current`} />
                                         ))}
