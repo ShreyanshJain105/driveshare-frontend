@@ -15,7 +15,7 @@ const Landing = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if(isSignedIn){
+    if (isSignedIn) {
       navigate("/dashboard");
     }
 
@@ -31,14 +31,14 @@ const Landing = () => {
       <FeaturesSection features={features} />
 
       {/*Pricing section*/}
-      <PricingSection pricingPlans={pricingPlans} />
+      <PricingSection pricingPlans={pricingPlans} openSignUp={openSignUp} />
 
 
       {/*Testimonial section */}
       <TestimonialSection testimonials={testimonials} />
 
       {/*CTa => call to action */}
-      <CTASection />
+      <CTASection openSignUp={openSignUp} />
 
       {/*Footer of webapp*/}
       <FooterSection />
